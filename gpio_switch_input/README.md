@@ -12,4 +12,4 @@ This project was built while following these tutorials:
 - [STM32CubeIDE Programming, Debugging, and Running](https://www.youtube.com/watch?v=BVC7KaUNCS8) — Programming GPIO input/output and debugging walkthrough
 
 
-Thanks to https://www.youtube.com/@seankennedy7610 the creator for these clear, beginner-friendly walkthroughs. While these are based on the older version of the STM32CubeIDE, they were still perfectly useful. The initial Pin setup and code generation is now done inside STMCubeMX and is separate from the Cude IDE.
+Thanks to https://www.youtube.com/@seankennedy7610 the creator for these clear, beginner-friendly walkthroughs. While these are based on the older version of the STM32CubeIDE, they were still perfectly useful. The initial Pin setup and code generation is now done inside STMCubeMX and is separate from the Cude IDE. Since I did not have a resistor for the Pull-Down for the Button inptu, I used the internal Pull-Down by setting it in the Pin Configuration for GPIO PB_3.
