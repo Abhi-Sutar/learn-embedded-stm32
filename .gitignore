@@ -53,3 +53,12 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Build outputs (applies to every project subfolder)
+**/Debug/
+**/Release/
+
+# Eclipse/CubeIDE workspace metadata (never commit this)
+.metadata/
+**/.settings/
+*.launch
